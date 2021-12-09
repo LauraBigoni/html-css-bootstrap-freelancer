@@ -1,9 +1,20 @@
-header {
-    height: 100px;
-    background-color: pink;
+header, footer .info, footer .copyright {
+    height: 80px;
+    background-color:#2C3E50;
 }
 
 .clickable {
     cursor: pointer;
 }
 
+.bg-green {
+    background-color: #1ABC9C;
+}
+
+.bg-white {
+    background-color: #fff;
+}
+
+.info.bg-blue {
+    background-color: #3A546D;
+}
