@@ -1,5 +1,5 @@
-header, footer .info, footer .copyright {
-    height: 80px;
+header, div.footer-bottom {
+    height: 100px;
     background-color:#2C3E50;
 }
 
@@ -15,6 +15,6 @@ header, footer .info, footer .copyright {
     background-color: #fff;
 }
 
-.info.bg-blue {
+.footer-top.bg-blue {
     background-color: #3A546D;
 }
