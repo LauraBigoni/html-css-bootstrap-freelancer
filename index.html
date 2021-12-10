@@ -32,87 +32,109 @@
             <div class="row">
                 <div class="col">
                     <img class="avatar" src="img/avatar.svg" alt="profile pic">
-                    <div>testo</div>
-                    <div>separatore con icona</div>
-                    <div>testo - testo - testo</div>
+                    <div class="fw-bold start">start bootstrap</div>
+                    <div><i class="bi bi-dash-lg fs-1"></i> <i class="bi bi-star-fill fs-1"></i> <i class="bi bi-dash-lg fs-1"></i></div>
+                    <div class="qualification">graphic artist - web designer - illustrator</div>
                 </div>
             </div>
         </div>
     </section>
-    <section class="portfolio d-flex flex-column text-center">
+    <section id="portfolio" class="d-flex flex-column text-center">
         <div class="container">
             <div class="row">
                 <div class="col pt-4">
-                    <div>testo </div>
-                    <div>separatore con icona</div>
+                    <div class="text-uppercase fs-3 fw-bold">portfolio</div>
+                    <div><i class="bi bi-dash-lg fs-1"></i> <i class="bi bi-star-fill fs-1"></i> <i class="bi bi-dash-lg fs-1"></i></div>
                 </div>
             </div>
             <div class="row py-4">
-                <div class="col-md-6 col-lg-4 pb-2"><img src="" alt="pic"></div>
-                <div class="col-md-6 col-lg-4 pb-2"><img src="" alt="pic"></div>
-                <div class="col-md-6 col-lg-4 pb-2"><img src="" alt="pic"></div>
-                <div class="col-md-6 col-lg-4 pb-2"><img src="" alt="pic"></div>
-                <div class="col-md-6 col-lg-4 pb-2"><img src="" alt="pic"></div>
-                <div class="col-md-6 col-lg-4"><img src="" alt="pic"></div>
+                <div class="col-md-6 col-lg-4 pb-4"><img src="img/cabin.png" alt="pic"></div>
+                <div class="col-md-6 col-lg-4 pb-4"><img src="img/cake.png" alt="pic"></div>
+                <div class="col-md-6 col-lg-4 pb-4"><img src="img/circus.png" alt="pic"></div>
+                <div class="col-md-6 col-lg-4 pb-4"><img src="img/game.png" alt="pic"></div>
+                <div class="col-md-6 col-lg-4 pb-4"><img src="img/safe.png" alt="pic"></div>
+                <div class="col-md-6 col-lg-4"><img src="img/submarine.png" alt="pic"></div>
             </div>
         </div>
     </section>
-    <section class="about bg-green text-white py-4">
+    <section id="about" class="bg-green text-white py-4">
         <div class="container-fluid">
             <div class="row pb-4">
-                <div class="col text-uppercase text-center ">
-                    <div>testo</div>
-                    <div>separatore con icona</div>
+                <div class="col text-center">
+                    <div class="text-uppercase fs-3 fw-bold">about</div>
+                    <div><i class="bi bi-dash-lg fs-1"></i> <i class="bi bi-star-fill fs-1"></i> <i class="bi bi-dash-lg fs-1"></i></div>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-8 offset-2 col-md-5 offset-md-1 offset-lg-2 col-lg-4">Lorem ipsum dolor sit amet
-                    consectetur adipisicing elit. Earum dolorum enim, harum eius perferendis eveniet voluptates,
-                    atque
-                    qui ipsa vitae omnis recusandae et aperiam unde vel quod illo nesciunt? Tempore?</div>
-                <div class="col-8 offset-2 col-md-5 offset-md-0 col-lg-4 pt-4 pt-md-0">Dolorum cum exercitationem
-                    quaerat, id sequi quos dolorem eum explicabo nisi maiores ratione accusamus modi possimus
-                    molestias,
-                    delectus placeat reprehenderit deleniti velit?</div>
+            <div class="row fs-5">
+                <div class="col-8 offset-2 col-md-5 offset-md-1 offset-lg-2 col-lg-4">Freelancer is a free bootstrap theme created by Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheet for easy customization.</div>
+                <div class="col-8 offset-2 col-md-5 offset-md-0 col-lg-4 pt-4 pt-md-0">Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!</div>
             </div>
             <div class="row text-center pt-4">
-                <div class="col">download</div>
+                <div class="col text-capitalize fs-5 clickable"><span class="download"><i class="bi bi-download fw-bold"></i> download</span></div>
             </div>
         </div>
     </section>
-    <section class="contact">
+    <section id="contact">
         <div class="container-fluid">
-            <div class="row text-center py-4">
+            <div class="row text-center pt-4">
                 <div class="col text-uppercase">
-                    <div>testo</div>
-                    <div class="py-3">separatore con icona</div>
+                    <div class="text-uppercase fs-3 fw-bold">contact me</div>
+                    <div class="py-3"><i class="bi bi-dash-lg fs-1"></i> <i class="bi bi-star-fill fs-1"></i> <i class="bi bi-dash-lg fs-1"></i></div>
                 </div>
             </div>
             <div class="row pb-4">
                 <div class="col-8 offset-2 col-md-10 offset-md-1 offset-lg-2 col-lg-8">
-                    <div>testo</div>
-                    <div>testo</div>
-                    <div>testo</div>
-                    <div>testo</div>
-                    <div>send</div>
+                    <div class="name">
+                        <label for="name" class="form-label">Name</label>
+                        <input type="name" class="form-control" id="name" aria-describedby="name">
+                        <div id="name" class="form-text"></div>
+                    </div>
+                    <div class="email">
+                        <label for="email" class="form-label">Email Address</label>
+                        <input type="email" class="form-control" id="email" aria-describedby="email">
+                        <div id="email" class="form-text"></div>
+                    </div>
+                    <div class="tel">
+                        <label for="tel" class="form-label">Phone Number</label>
+                        <input type="tel" class="form-control" id="tel" aria-describedby="tel">
+                        <div id="tel" class="form-text"></div>
+                    </div>
+                    <div class="message">
+                        <label for="message" class="form-label">Message</label>
+                        <textarea class="form-control" id="message"></textarea>
+                        <label for="message"></label>
+                    </div>
+                    <button type="button" class="text-white fw-bold btn bg-green btn-success">Send</button>
                 </div>
             </div>
         </div>
     </section>
     <footer>
         <div class="container-fluid text-white p-0">
-            <div class="footer-top bg-blue d-flex justify-content-center align-items-center">
-                <div class="row flex-md-row">
-                    <div class="col">
-                        <div>Testo-1</div>
-                        <div>Testo-2</div>
-                        <div>Testo-3</div>
+            <div class="footer-top bg-blue">
+                <div class="row flex-column flex-md-row justify-content-center text-center">
+                    <div class="col col-md-2 pt-4 col-xl-2">
+                        <h5 class="text-uppercase">location</h5>
+                        <address>2215 Jhon Daniel Drive Clark, MO 54243</address>
+                    </div>
+                    <div class="col col-md-4 pt-md-4 col-xl-2">
+                        <h5 class="text-uppercase">around the web</h5>
+                        <div class="icons pb-4">
+                            <i class="bi bi-facebook rounded-circle"></i>
+                            <i class="bi bi-google rounded-circle"></i>
+                            <i class="bi bi-twitter rounded-circle"></i>
+                            <i class="bi bi-linkedin rounded-circle"></i>
+                        </div>
+                    </div>
+                    <div class="col-6 offset-3 col-md-4 offset-md-0 pt-md-4 col-xl-2">
+                        <h5 class="text-uppercase">about freelancer</h5>
+                        <p>Freelance is a free to use, open source Bootstrat theme created by <span class="text-success clickable fw-bolder">Start Bootstrap</span></p>
                     </div>
                 </div>
             </div>
             <div class="footer-bottom d-flex justify-content-center align-items-center">
                 <div class="row">
-                    <div class="col">Testo a fondo pagina</div>
+                    <div class="col">Copyright &copy; Laura Bigoni 2021</div>
                 </div>
             </div>
         </div>
