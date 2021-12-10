@@ -18,3 +18,7 @@ header, div.footer-bottom {
 .footer-top.bg-blue {
     background-color: #3A546D;
 }
+
+img.avatar {
+    max-width: 20%;
+}
