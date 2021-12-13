@@ -69,3 +69,24 @@ label {
     background-color: #1ABC9C;
     border-color: #1ABC9C;
 }
+
+.star-divider {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.star-divider::before,
+.star-divider::after {
+    content: '';
+    display: inline-block;
+    height: 2px;
+    width: 80px;
+    margin: 0 20px;
+    background-color: #fff;
+}
+
+.star-divider.dark::before,
+.star-divider.dark::after {
+background-color: black;
+}
