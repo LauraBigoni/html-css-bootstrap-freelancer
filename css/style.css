@@ -1,3 +1,4 @@
+/**utilities**/
 header, div.footer-bottom {
     height: 100px;
     background-color:#2C3E50;
@@ -5,69 +6,6 @@ header, div.footer-bottom {
 
 .clickable {
     cursor: pointer;
-}
-
-.bg-green {
-    background-color: #1ABC9C;
-}
-
-.bg-white {
-    background-color: #fff;
-}
-
-.footer-top.bg-blue {
-    background-color: #3A546D;
-}
-
-img.avatar {
-    height: auto;
-    max-width: 200px;
-}
-
-#portfolio img {
-    width: 100%;
-    border-radius: 10px;
-}
-
-.start {
-    font-size: 40px;
-}
-
-.qualification {
-    font-size: 20px;
-}
-
-.download {
-    padding: 5px 10px;
-    border-radius: 5px;
-    border: 1px solid white ;
-}
-
-.icons i {
-    font-size: 20px;
-    padding: 5px 10px;
-    border: 1px solid white;
-}
-
-#contact .form-control {
-    border: 0;
-    border-radius: 0;
-    border-bottom: 1px solid #999;
-}
-
-label {
-    padding-top: 10px;
-}
-
-.bg-green {
-    background-color: #1ABC9C;
-    border-color: #1ABC9C;
-}
-
-.bg-green:focus,
-.bg-green:hover {
-    background-color: #1ABC9C;
-    border-color: #1ABC9C;
 }
 
 .star-divider {
@@ -89,4 +27,72 @@ label {
 .star-divider.dark::before,
 .star-divider.dark::after {
 background-color: black;
+}
+
+/**Bg colors **/
+.bg-green {
+    background-color: #1ABC9C;
+}
+
+.bg-white {
+    background-color: #fff;
+}
+
+.footer-top.bg-blue {
+    background-color: #3A546D;
+}
+
+/**Images**/
+img.avatar {
+    height: auto;
+    max-width: 200px;
+}
+
+#portfolio img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+/**Font size**/
+.start {
+    font-size: 40px;
+}
+
+.qualification {
+    font-size: 20px;
+}
+
+.download {
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: 1px solid white ;
+}
+
+/**Contact form section**/
+#contact .form-control {
+    border: 0;
+    border-radius: 0;
+    border-bottom: 1px solid #999;
+}
+
+.bg-green {
+    background-color: #1ABC9C;
+    border-color: #1ABC9C;
+}
+
+.bg-green:focus,
+.bg-green:hover {
+    background-color: #1ABC9C;
+    border-color: #1ABC9C;
+}
+
+label {
+    padding-top: 10px;
+}
+
+/**Footer**/
+.icons i {
+    font-size: 20px;
+    padding: 5px 10px;
+    border: 1px solid white;
 }
