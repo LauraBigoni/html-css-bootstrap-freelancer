@@ -20,7 +20,8 @@ header, div.footer-bottom {
 }
 
 img.avatar {
-    width: 250px;
+    height: auto;
+    max-width: 200px;
 }
 
 #portfolio img {
